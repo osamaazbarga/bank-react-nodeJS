@@ -9,8 +9,7 @@
     "client": "webpack-dev-server --mode development --devtool inline-source-map --hot",
     "server": "nodemon src/server/index.js",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "stop": "taskkill -F -IM node.exe",
-    "heroku-postbuild": "webpack --config webpack.prod.js"
+    "stop": "taskkill -F -IM node.exe"
   },
   "author": "Sandeep Raveesh",
   "license": "ISC",
